@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "delta_visuals",
+  "version": "${version}",
+  "name": "DELTA VISUALS",
+  "description": "A client-side visual customization mod: ClickGUI, HUD, markers, configs.",
+  "authors": ["DELTA VISUALS"],
+  "license": "See LICENSE",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "dev.deltavisuals.DeltaVisuals"
+    ]
+  },
+  "mixins": [
+    "delta_visuals.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.18.0",
+    "minecraft": "1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}

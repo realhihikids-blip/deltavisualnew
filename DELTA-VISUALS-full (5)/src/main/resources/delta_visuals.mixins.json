@@ -1,0 +1,11 @@
+{
+  "required": false,
+  "package": "dev.deltavisuals.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "HeldItemRendererMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
